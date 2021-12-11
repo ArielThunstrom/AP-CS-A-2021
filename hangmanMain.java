@@ -9,11 +9,7 @@ Public class Main {
     System.out.println("Select a game mode: easy, medium, hard ");
     String choice = keyboard.nextLine();
     difficult(choice);
-    //int random = (int)(Math.random() * 274926 + 1);
-    //String word = wordList.get(random);
-    //Hangman game = new Hangman("mississippi", 5);
-    //Hangman game = new Hangman (word, 26);
-    //game.play();
+    
   }
 
    public static ArrayList<String> importFile(String fileName){
